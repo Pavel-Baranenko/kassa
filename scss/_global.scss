@@ -1,0 +1,77 @@
+html,
+body {
+   height: 100%;
+}
+
+body {
+   overflow-x: hidden;
+   font-family: 'Montserrat', sans-serif;
+   background: #0A0A0A;
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 120%;
+}
+
+input {
+   border: none;
+   outline: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.main {
+   flex: 1 0 auto;
+}
+
+.footer {
+   flex: 0 0 auto;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+a {
+   color: inherit;
+   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+   width: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+.swiper-wrapper {
+   -webkit-transition-timing-function: linear !important;
+   transition-timing-function: linear !important;
+}
+
+.container-left {
+   margin-left: calc((100% - 1520px) / 2);
+}
+
+textarea {
+   outline: none;
+   border: none;
+}
+
+html {
+   scroll-behavior: smooth;
+}
